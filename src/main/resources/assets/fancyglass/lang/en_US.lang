@@ -1,0 +1,5 @@
+#Block localizations
+tile.fancyglass:glassBrick.glassBrick.name=Glass Brick
+tile.fancyglass:glassBrick.crackedglassBrick.name=Cracked Glass Brick
+tile.fancyglass:glassBrick.chiseledglassBrick.name=Chiseled Glass Brick
+tile.fancyglass:glasscraftingTable.name=Glass Crafting Table
