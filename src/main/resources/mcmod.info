@@ -1,15 +1,15 @@
 [
 {
-  "modid": "minechem",
-  "name": "MineChem",
-  "description": "Chemical industry in Minecraft!",
+  "modid": "fancyglass",
+  "name": "Fancy Glass 2",
+  "description": "",
   "version": "@VERSION@",
   "credits": "",
-  "logoFile": "/mods/minechem/logo.png",
+  "logoFile": "",
   "mcversion": "@MCVERSION@",
-  "url": "http://universalelectricity.com/minechem",
-  "updateUrl": "http://universalelectricity.com/minechem",
-  "authors": ["See GitHub page"],
+  "url": "",
+  "updateUrl": "",
+  "authors": ["darkmainiac"],
   "parent":"",
   "screenshots": [],
   "dependencies": ["mod_MinecraftForge"]
