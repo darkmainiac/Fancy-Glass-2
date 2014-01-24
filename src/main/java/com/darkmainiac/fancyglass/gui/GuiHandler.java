@@ -18,7 +18,7 @@ public class GuiHandler implements IGuiHandler
             return new ContainerCrafting(player.inventory, world, x, y, z);
         }
         
-        else return null;
+        return null;
     }
 
     @Override
@@ -29,6 +29,6 @@ public class GuiHandler implements IGuiHandler
         {
             return new CraftingGui(player.inventory, world, x, y, z);
         }
-        else return null;
+        return null;
 	}
 }

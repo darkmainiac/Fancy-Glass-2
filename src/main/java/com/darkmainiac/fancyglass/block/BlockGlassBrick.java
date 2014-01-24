@@ -35,6 +35,12 @@ public class BlockGlassBrick extends BlockFancyGlass{
 			list.add(new ItemStack(id, 1, meta));
 		}
 	}
+	
+	@Override
+    public int damageDropped(int metaData)
+    {
+        return metaData;
+    }
 
 	@Override
     @SideOnly(Side.CLIENT)

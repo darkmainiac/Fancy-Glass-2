@@ -48,4 +48,13 @@ public class CraftingGui extends GuiContainer
         int l = (this.height - this.ySize) / 2;
         this.drawTexturedModalRect(k, l, 0, 0, this.xSize, this.ySize);
     }
+    
+    @Override
+    public void onGuiClosed()
+    {
+        if (mc.thePlayer != null)
+        {
+            this.inventorySlots.onContainerClosed(this.mc.thePlayer);
+        }
+    }
 }
